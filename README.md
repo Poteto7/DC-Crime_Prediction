@@ -1,4 +1,4 @@
-# 🚨 D.C. Crime Radar: Spatial-Temporal Crime Prediction
+#  D.C. Crime Radar: Spatial-Temporal Crime Prediction
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.19-FF6F00?logo=tensorflow)](https://www.tensorflow.org/)
@@ -9,7 +9,7 @@
 
 ---
 
-## 🧭 1. Project Overview
+##  1. Project Overview
 
 This project tackles urban safety through two distinct predictive modeling approaches using real-world data from the D.C. Metropolitan Police Department (2021–2024):
 
@@ -18,7 +18,7 @@ This project tackles urban safety through two distinct predictive modeling appro
 
 ---
 
-## 🗂️ 2. Repository Structure
+##  2. Repository Structure
 
 ```
 dc-crime-radar/
@@ -36,7 +36,7 @@ dc-crime-radar/
 
 ---
 
-## 🏗️ 3. Architecture
+##  3. Architecture
 
 ### Full Pipeline
 
@@ -140,11 +140,11 @@ dc-crime-radar/
 
 ---
 
-## 📊 4. Models & Key Results
+##  4. Models & Key Results
 
 **Strict holdout design: 2024 data not loaded anywhere during training. Models and scalers serialised to disk and evaluated on fully unseen 2024 data.**
 
-### 🎯 Task 1 — Hotspot Classification
+###  Task 1 — Hotspot Classification
 
 Predicts if a cluster will exceed **20 crimes** the following week. Both models tuned for a **3.67:1 class imbalance** (21.2% hotspot base rate).
 
@@ -172,7 +172,7 @@ Captures temporal trends using a 4-week sliding window per cluster. Evaluated on
 
 ---
 
-## 🔧 5. Feature Engineering
+##  5. Feature Engineering
 
 | Feature | Description |
 |:---|:---|
@@ -187,7 +187,7 @@ Captures temporal trends using a 4-week sliding window per cluster. Evaluated on
 
 ---
 
-## 📁 6. Dataset
+##  6. Dataset
 
 **Source:** [DC Open Data — Crime Incidents](https://opendata.dc.gov/datasets/crime-incidents-in-2024)
 
@@ -203,7 +203,7 @@ Captures temporal trends using a 4-week sliding window per cluster. Evaluated on
 
 ---
 
-## ⚙️ 7. Getting Started
+##  7. Getting Started
 
 **Prerequisites:** Python 3.8+
 
@@ -228,8 +228,3 @@ jupyter notebook notebooks/02_lstm_forecasting.ipynb
 ```
 
 ---
-
-## 👤 8. Author
-
-**Sai Srinivas Guttikonda** — M.S. Computer Science, George Washington University (2026)  
-[LinkedIn](#) · [Portfolio](#)
