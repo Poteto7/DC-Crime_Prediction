@@ -209,8 +209,8 @@ Captures temporal trends using a 4-week sliding window per cluster. Evaluated on
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/SaiSrinivasGuttikonda/dc-crime-radar.git
-cd dc-crime-radar
+git clone https://github.com/SaiSrinivasGuttikonda/github.com/Poteto7/DC-Crime_Prediction.git
+cd DC-Crime_Prediction
 
 # 2. Create and activate a virtual environment
 python -m venv venv
