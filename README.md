@@ -26,9 +26,7 @@ dc-crime-radar/
 ├── notebooks/
 │   ├── 01_data_pipeline_and_classification.ipynb   # Cleaning, feature engineering, RF & XGBoost
 │   └── 02_lstm_forecasting.ipynb                   # LSTM time-series forecasting
-│
-├── report/
-│   └── crime_prediction_report.pdf
+│   
 │
 ├── requirements.txt
 └── README.md
