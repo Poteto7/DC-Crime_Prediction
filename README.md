@@ -1,4 +1,4 @@
-#  D.C. Crime Radar: Spatial-Temporal Crime Prediction
+#  D.C. Crime Prediction: Spatial-Temporal Crime Prediction
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.19-FF6F00?logo=tensorflow)](https://www.tensorflow.org/)
